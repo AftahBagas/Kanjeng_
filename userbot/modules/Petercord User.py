@@ -37,9 +37,9 @@ async def koc(e):
 @register(outgoing=True, pattern='^.dino(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`DIN DINNN.....`")
+    await typew.edit("`HAA HAAA.....`")
     sleep(2)
-    await typew.edit("`DINOOOOSAURUSSSSS!!`")
+    await typew.edit("`HARIMAUUUUUUUUUUU!!`")
     sleep(2)
     await typew.edit("`🏃                        🐅`")
     await typew.edit("`🏃                       🐅`")
@@ -85,11 +85,11 @@ async def typewriter(typew):
     await typew.edit("`🏃 LARI TERUSSSS     🐅`")
     await typew.edit("`🏃   KEPELESET 🧎🧎  🐅`")
     await typew.edit("`🏃    🐅`")
-    await typew.edit("`HARUS BERJUANG 👍`")
+    await typew.edit("`DAHLAH PASRAH`")
     sleep(1)
-    await typew.edit("`🧎🦖`")
+    await typew.edit("`🧎🐅`")
     sleep(2)
-    await typew.edit("`-DAHLAH PASRAH 😭-`")
+    await typew.edit("`-TAMAT-`")
 
 
 @register(outgoing=True, pattern="^.gabut$")
