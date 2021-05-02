@@ -319,7 +319,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🔮KQNJENG🔮\nMENYALA```")
+    await bot.send_message(BOTLOG_CHATID, "```🌹[KEKUATAN KANJENG TELAH DIBANGKITKAN]🌹```")
     return
 
 with bot:
