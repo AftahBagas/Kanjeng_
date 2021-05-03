@@ -226,7 +226,7 @@ async def amireallyalive(alive):
     await alive.edit("⚡")
     output = (
         f" **🌹 KANJENG USERBOT 🌹** \n"
-        f"\n__**{PETERCORD_TEKS_KUSTOM}**__\n"
+        f"\n__**{KANJENG_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
         f"**〠 ᴋᴀɴᴊᴇɴɢ** \n"
         f" ➥ `{DEFAULTUSER}` \n"
