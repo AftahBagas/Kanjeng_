@@ -70,7 +70,7 @@ async def killdabot(event):
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`Petercord-Userbot Telah Dimatikan`")
+                                        "`Kanjeng-Userbot Telah Dimatikan`")
     await bot.disconnect()
 
 
@@ -81,7 +81,7 @@ async def killdabot(event):
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTARTBOT \n"
-                                        "`Petercord-Userbot Telah Di Restart`")
+                                        "`Kanjeng-Userbot Telah Di Restart`")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -128,7 +128,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "🔰 **Repo Userbot:** [[Petercord-Userbot]](https://github.com/ilham77mansiz/-PETERCORD-)\n🐲 **Pemilik:** [[🎸ILham Mansiezz🎸]](t.me/diemmmmmmmmmm)"
+        "**╭┄┅┅┄──────┄┅┅┄╮**\n\n       [𝗞𝗔𝗡𝗝𝗘𝗡𝗚](https://github.com/Aftahbagas/Kanjeng-Userbot)\n\n**╰┄┅┅┄──────┄┅┅┄╯**\n"
     )
 
 
