@@ -97,7 +97,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
 
         if BOTLOG:
             await event.client.send_message(
-                BOTLOG_CHATID, "🔧PETERCORD \n"
+                BOTLOG_CHATID, "🔧KANJENG \n"
                 "`🌹KANJENG USERBOT🌹 Berhasil Di Update`")
 
     else:
