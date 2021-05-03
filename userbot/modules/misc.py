@@ -128,7 +128,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**╭┄┅┅┄──────┄┅┅┄╮**\n\n       [𝗞𝗔𝗡𝗝𝗘𝗡𝗚](https://github.com/Aftahbagas/Kanjeng-Userbot)\n\n**╰┄┅┅┄──────┄┅┅┄╯**\n"
+        "**╭┄┅┅┄──────┄┅┅┄╮**\n\n       [𝗞𝗔𝗡𝗝𝗘𝗡𝗚](https://github.com/Aftahbagas/-KANJENG)\n\n**╰┄┅┅┄──────┄┅┅┄╯**\n"
     )
 
 
