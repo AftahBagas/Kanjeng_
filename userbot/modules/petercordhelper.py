@@ -11,23 +11,23 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern="^.mintabantuan$")
 async def usit(e):
     await e.edit(
-        f"**Hai Petercord {DEFAULTUSER} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
-        "\n[Telegram](t.me/bismillahselaluadaa)"
-        "\n[Repo](https://github.com/ilham77mansiz/-PETERCORD-)"
-        "\n[Instagram](Instagram.com/mansiez_ilham2)")
+        f"**Hai Kanjeng {DEFAULTUSER} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
+        "\n[Telegram](t.me/kanjengingsun)"
+        "\n[Repo](https://github.com/AftahBagas/-KANJENG)"
+        "\n[Instagram](Instagram.com/AftahBagas)")
 
 
 @register(outgoing=True, pattern="^.varsraw$")
 async def var(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
-        "\n[DAFTAR VARS](https://raw.githubusercontent.com/ilham77mansiz/-PETERCORD-/Petercord-Userbot/varshelper.txt)")
+        "\n[DAFTAR VARS](https://raw.githubusercontent.com/AftahBagas/-KANJENG/Petercord-Userbot/varshelper.txt)")
 
 
 CMD_HELP.update({
     "petercordmintabantuan":
     "`.mintabantuan`\
-\nUsage: Bantuan Untuk Petercord-Userbot.\
+\nUsage: Bantuan Untuk Kanjeng-Userbot.\
 \n`.varsraw`\
 \nUsage: Melihat Daftar Vars."
 })
