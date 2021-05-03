@@ -66,9 +66,9 @@ async def set_afk(afk_e):
     else:
         await afk_e.edit("🌹 𝘼 𝙁 𝙆\n╭╼═══╾╼═══╾╼═══╾ \n┣ ᴊᴀɴɢᴀɴ ᴅɪᴄᴀʀɪ 🌹 \n╰╼═══╾╼═══╾")
     if user.last_name:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "‹ᴋᴀɴᴊᴇɴɢ ᴀғᴋ›"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "‹ᴀғᴋ›"))
     else:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="‹ᴋᴀɴᴊᴇɴɢ ᴀғᴋ›"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="‹ᴀғᴋ›"))
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "🌹AFK\n**𝗞𝗔𝗡𝗝𝗘𝗡𝗚 ᴛᴇʟᴀʜ AFK!**")
     ISAFK = True
@@ -89,7 +89,7 @@ async def type_afk_is_not_true(notafk):
     global afk_end
     user = await bot.get_me()  # pylint:disable=E0602
     last = user.last_name
-    if last and last.endswith("‹ᴋᴀɴᴊᴇɴɢ ᴀғᴋ›"):
+    if last and last.endswith("‹ᴀғᴋ›"):
         last1 = last[:-12]
     else:
         last1 = ""
