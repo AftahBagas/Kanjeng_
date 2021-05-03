@@ -298,7 +298,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("🌹ALIVE🌹")
-    await alive.edit("⚡")
+    await alive.edit("❄️")
     await asyncio.sleep(3)
     output = (
         f"** ╭─━━═━═━═━═━═━═━━─╮** \n"
