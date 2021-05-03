@@ -1,7 +1,7 @@
 {
-  "name": "Petercord User",
-  "description": "[Petercord User] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/3bfbaa5461dcba6a8bdb1.jpg",
+  "name": "KANJENG",
+  "description": "[KANJENG] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/858a7ef4275e9adaaf11f.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ilham77mansiz/-PETERCORD-",
-  "telegram": "https://t.me/diemmmmmmmmmm",
-  "success_url": "https://t.me/diemmmmmmmmmm",
+  "repository": "https://github.com/AftahBagas/-KANJENG",
+  "telegram": "https://t.me/kanjengingsun",
+  "success_url": "https://t.me/kanjengingsun",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @diemmmmmmmmmm di telegram",
+      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @kanjengingsun di telegram",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -151,7 +151,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "Petercord User",
+      "value": "Kanjeng Userbot",
       "required": false
     },
     "ALIVE_NAME": {
@@ -198,7 +198,7 @@
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's weather module.",
-      "value": "Medan",
+      "value": "Pati",
       "required": false
     },
     "LOGSPAMMER": {
