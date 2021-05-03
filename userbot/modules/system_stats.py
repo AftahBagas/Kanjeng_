@@ -1,4 +1,4 @@
-# System Stats Petercord-Userbot
+# System Stats Kanjeng-Userbot
 
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -14,7 +14,7 @@ import time
 from datetime import datetime
 import psutil
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, PETERCORD_TEKS_KUSTOM, CMD_HELP, StartTime, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, LORD_TEKS_KUSTOM, CMD_HELP, StartTime, UPSTREAM_REPO_BRANCH, bot
 from userbot.events import register
 
 
@@ -159,9 +159,9 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**Petercord-Userbot Versi:** \n "
+            "**⁃**Kanjeng-Userbot Versi:** \n "
             f"{verout}"
-            "\n**☛**Revisi:**\n "
+            "\n**⁃**Revisi:**\n "
             f"{revout}"
         )
     else:
@@ -218,23 +218,25 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:petercord|petercordon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:lord|lordon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
+    await alive.edit("`I'M ALIVE!`")
+    await alive.edit("⚡")
     output = (
-        f" **┗┓PETERCORD USERBOT┏┛** \n"
-        f"\n__**{PETERCORD_TEKS_KUSTOM}**__\n"
+        f" **🌹 KANJENG USERBOT 🌹** \n"
+        f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**🐉 Petercord🐉** \n"
+        f"**〠 ᴋᴀɴᴊᴇɴɢ** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**🐉 Username🐉** \n"
+        f"**〠 ᴜsᴇʀɴᴀᴍᴇ** \n"
         f" ➥ `@{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[• `Telethon :`Ver {version.__version__} \n"
-        f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver  :`{BOT_VER} \n"
-        f"┣[• `Modules  :`{len(modules)} \n"
+        f"┣[› `Telethon :`Ver {version.__version__} \n"
+        f"┣[› `Python   :`Ver {python_version()} \n"
+        f"┣[› `Bot Ver  :`{BOT_VER} \n"
+        f"┣[› `Modules  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
@@ -256,21 +258,21 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:peterpen|peter)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:xalive|xon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**▬▬▬▬▬▬❙۩🛡🛡۩❙▬▬▬▬▬▬**\n"
-        f"  **🔮 PETERCORD-USERBOT 🔮** \n\n"
-        f"🛡 **PETERCORD**     \n   ➥ `{DEFAULTUSER}` \n"
-        f"🛡 **Username** \n   ➥ `@{user.username}` \n"
-        f"🛡 **Telethon** \n   ➥ `Versi {version.__version__}` \n"
-        f"🛡 **Python**   \n   ➥ `Versi {python_version()}` \n"
-        f"🛡 **Versi Bot**\n   ➥ `{BOT_VER}` \n"
-        f"🛡 **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"🛡 **Repo Userbot:** [Petercord-Userbot](https://github.com/ilham77mansiz/-PETERCORD-)\n🛡 **Grup Userbot: **[Tekan](https://t.me/petercord)\n🛡 **Pemilik:** [IlhamMansiez](t.me/diemmmmmmmmmm)\n"
-        f"**▬▬▬▬▬▬❙۩🛡🛡۩❙▬▬▬▬▬▬**")
+        f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
+        f"     **✨ KANJENG USERBOT ✨** \n\n"
+        f"❅ **Kanjeng**     \n   ➥ `{DEFAULTUSER}` \n"
+        f"❅ **Username** \n   ➥ `@{user.username}` \n"
+        f"❅ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
+        f"❅ **Python**   \n   ➥ `Versi {python_version()}` \n"
+        f"❅ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
+        f"❅ **Modul**    \n   ➥ `{len(modules)}` \n\n"
+        f"❅ **Repo Userbot:** [Kanjeng](https://github.com/AftahBagas/Kanjeng-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/Petercord)\n❃ **Pemilik:** [Alfareza](t.me/Kanjengingsun)\n"
+        f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -295,18 +297,24 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
+    await alive.edit("🌹ALIVE🌹")
+    await alive.edit("⚡")
+    await asyncio.sleep(3)
     output = (
-        f"**🦉 PETERCORD 🦅 USERBOT 🐿** \n"
-        f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `🎸Petercord:`{DEFAULTUSER} \n"
-        f"┣|• `🎸Username :`@{user.username} \n"
-        f"┣|• `🎸Telethon :`Ver {version.__version__} \n"
-        f"┣|• `🎸Python   :`Ver {python_version()} \n"
-        f"┣|• `🎸Branch   :`{UPSTREAM_REPO_BRANCH} \n"
-        f"┣|• `🎸Bot Ver  :`{BOT_VER} \n"
-        f"┣|• `🎸Modules  :`{len(modules)} Modules \n"
-        f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[Repo](https://github.com/ilham77mansiz/-PETERCORD-) | [Grup Support](https://t.me/petercord) | [Owner](t.me/diemmmmmmmmmm)")
+        f"**ㅤㅤ  ╭─━━═━═━═━═━═━═━━─╮** \n"
+        f"**       𝗞𝗔𝗡𝗝𝗘𝗡𝗚 𝗨𝗦𝗘𝗥𝗕𝗢𝗧   \n"
+        f"ㅤㅤ  ╰─━━═━═━═━═━═━═━━─╯** \n"
+        f"     WELCOME TO ALIVE       \n"
+        f"╭─━═━═━═━═━═━═━═━═━─╮ \n"
+        f"╟> 🌹  Kanjeng     :{DEFAULTUSER} \n"
+        f"╟> 🌹 Username :@{user.username} \n"
+        f"╟> 🌹  Telethon :v. {version.__version__} \n"
+        f"╟> 🌹  Python   :v. {python_version()} \n"
+        f"╟> 🌹  Branch   :{UPSTREAM_REPO_BRANCH} \n"
+        f"╟> 🌹  Bot Ver  :v. {BOT_VER} \n"
+        f"╟> 🌹  Plugins  :{len(modules)} Plugins \n"
+        f"╰─━═━═━═━═━═━═━═━═━─╯ \n"
+        f"[Repo](https://github.com/Aftahbagas/Kanjeng-Userbot) | [Grup Support](t.me/petercord) | [Owner](t.me/Kanjengingsun)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
