@@ -158,8 +158,8 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": true
     },
-    "PETERCORD_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .petercord (Isi Terserah)",
+    "KANJENG_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .kanjeng (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
