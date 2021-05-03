@@ -147,8 +147,8 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
-# untuk perintah .petercord
-PETERCORD_TEKS_KUSTOM = os.environ.get("PETERCORD_TEKS_KUSTOM", None)
+# untuk perintah .kanjeng
+KANJENG_TEKS_KUSTOM = os.environ.get("KANJENG_TEKS_KUSTOM", None)
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -180,7 +180,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/3bfbaa5461dcba6a8bdb1.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/bc483133362111e4c3525.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -391,7 +391,7 @@ with bot:
         @ tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("Petercord-Userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/ilham77mansiz/-PETERCORD-.git)")
+                await event.reply("Kanjeng-Userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/AftahBagas/-KANJENG.git)")
             else:
                 await event.reply(f"`Hai Petercord {ALIVE_NAME}\n\nApa Kabarmu?`")
 
@@ -404,8 +404,8 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**🔮 Jumlah Modul Yang Tersedia:** `{}`\n               \n**🔮 Daftar Modul  🔮PETERCORD-USERBOT:** \n".format(
-                        "** 🔮PETERCORD-USERBOT**",
+                    text="{}\n\n**🌹 Jumlah Modul Yang Tersedia:** `{}`\n               \n**🌹 Daftar Modul  🌹KANJENG-USERBOT:** \n".format(
+                        "** 🌹KANJENG-USERBOT**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -413,22 +413,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan PETERCORD⚖USERBOT ",
+                    "Bantuan KANJENG⚖USERBOT ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**PETERCORD⚖USERBOT**",
-                    text="""**Anda Bisa Membuat PETERCORD⚖USERBOT Anda Sendiri Dengan Cara:** [Tekan Disini🏹](t.me/petercord)""",
+                    "**KANJENG⚖USERBOT**",
+                    text="""**Anda Bisa Membuat KANJENG⚖USERBOT Anda Sendiri Dengan Cara:** [Tekan Disini🏹](t.me/petercord)""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Repo Petercord-Userbot🏹",
-                                "https://github.com/ilham77mansiz/-PETERCORD-"),
+                                "https://github.com/AftahBagas/-KANJENG"),
                             custom.Button.url(
                                 "Pemilik Repo🏹",
-                                "t.me/diemmmmmmmmmm")],
+                                "t.me/Kanjengingsun")],
                     ],
                     link_preview=False,
                 )
