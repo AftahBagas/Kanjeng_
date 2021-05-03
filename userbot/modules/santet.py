@@ -6,11 +6,11 @@ from userbot.events import register
 @register(outgoing=True, pattern=r'^\.santet(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Kanjeng Telah Melakukan Ritual Santet Online ツ`")
+    await typew.edit("`Kanjeng Melakukan Ritual Santet Online ツ`")
     sleep(2)
-    await typew.edit("`Mencari Target Santet...`")
+    await typew.edit("`Syarat Syarat Telah Terpenuhi !`")
     sleep(1)
-    await typew.edit("`Target Santet Telah Ditemukan,Santet Segera Dijalankan`")
+    await typew.edit("`Santet Akan Segera Dijalankan`")
     sleep(1)
     await typew.edit("0%")
     number = 1
@@ -313,7 +313,7 @@ async def typewriter(typew):
     sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     sleep(1)
-    await typew.edit("`Kanjeng Berhasil Menyantet Target,Cuman Bercanda:d `")
+    await typew.edit("`Kanjeng Berhasil Menyantet Target Secara Online `")
 
 
 CMD_HELP.update({
