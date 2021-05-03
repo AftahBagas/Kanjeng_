@@ -218,7 +218,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:lord|lordon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:Kanjeng|Kanjengon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -228,9 +228,9 @@ async def amireallyalive(alive):
         f" **🌹 KANJENG USERBOT 🌹** \n"
         f"\n__**{KANJENG_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**〠 ᴋᴀɴᴊᴇɴɢ** \n"
+        f"**☀ ᴋᴀɴᴊᴇɴɢ** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**〠 ᴜsᴇʀɴᴀᴍᴇ** \n"
+        f"**☀ ᴜsᴇʀɴᴀᴍᴇ** \n"
         f" ➥ `@{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
         f"┣[› `Telethon :`Ver {version.__version__} \n"
