@@ -1,9 +1,9 @@
 #Ilham Mansiez
-#Kanjeng Userbot
+#Petercord Userbot
 #Tentang AKU DAN DIA
-FROM  Aftahbagas/aftah-bagas-kanjeng:kanjeng-userbor
+FROM  ilhammansiz17/ilham-mansiez-petercord:Petercord-Userbot
 
-RUN git clone -b Kanjeng-Userbot https://github.com/AftahBagas/-KANJENG /root/userbot
+RUN git clone -b Petercord-Userbot https://github.com/AftahBagas/-KANJENG /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
