@@ -63,7 +63,7 @@ async def _(event):
 # Ported For Petercord-Userbot By bismillahselaluadaa/ILham
 
 CMD_HELP.update({
-    "petercordfun": "\
+    "Kanjengfun": "\
 `.xogame`\
 \nUsage: Mainkan game XO bersama temanmu.\
 \n\n`.mod <nama app>`\
