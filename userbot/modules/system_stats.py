@@ -221,22 +221,22 @@ async def pipcheck(pip):
 @register(outgoing=True, pattern=r"^\.(?:lord|lordon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
+    await alive.edit("`Perkenalan diri...`")
+    await alive.edit("⭐")
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`I'M ALIVE!`")
-    await alive.edit("❄️")
     output = (
-        f" **🌹 KANJENG USERBOT 🌹** \n"
+        f" 🌹 KANJENG USERBOT 🌹 \n"
         f"\n__**{KANJENG_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
         f"**☀ ᴋᴀɴᴊᴇɴɢ** \n"
-        f" ➥ `{DEFAULTUSER}` \n"
+        f" ➥ {DEFAULTUSER} \n"
         f"**☀ ᴜsᴇʀɴᴀᴍᴇ** \n"
-        f" ➥ `@{user.username}` \n"
+        f" ➥ @{user.username} \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[› `Telethon :`Ver {version.__version__} \n"
-        f"┣[› `Python   :`Ver {python_version()} \n"
-        f"┣[› `Bot Ver  :`{BOT_VER} \n"
-        f"┣[› `Modules  :`{len(modules)} Modules \n"
+        f"┣[› Telethon :Ver {version.__version__} \n"
+        f"┣[› Python   :Ver {python_version()} \n"
+        f"┣[› Bot Ver  :{BOT_VER} \n"
+        f"┣[› Modules  :{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
