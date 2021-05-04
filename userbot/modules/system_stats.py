@@ -223,7 +223,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`I'M ALIVE!`")
-    await alive.edit("⚡")
+    await alive.edit("❄️")
     output = (
         f" **🌹 KANJENG USERBOT 🌹** \n"
         f"\n__**{KANJENG_TEKS_KUSTOM}**__\n"
@@ -303,9 +303,9 @@ async def amireallyalive(alive):
     output = (
         f"**  ╭─━━═━═━═━═━═━═━━─╮** \n"
         f"**          𝗞𝗔𝗡𝗝𝗘𝗡𝗚 𝗨𝗦𝗘𝗥𝗕𝗢𝗧   \n"
-        f" ╰─━━═━═━═━═━═━═━━─╯** \n"
+        f"  ╰─━━═━═━═━═━═━═━━─╯** \n"
         f"     WELCOME TO ALIVE       \n"
-        f"╭─━═━═━═━═━═━═━═━═━─╮ \n"
+        f"╭━═━═━═━═━═━═━═━═━╮ \n"
         f"╟> 🌹  Kanjeng     :{DEFAULTUSER} \n"
         f"╟> 🌹 Username :@{user.username} \n"
         f"╟> 🌹  Telethon :v. {version.__version__} \n"
@@ -313,7 +313,7 @@ async def amireallyalive(alive):
         f"╟> 🌹  Branch   :{UPSTREAM_REPO_BRANCH} \n"
         f"╟> 🌹  Bot Ver  :v. {BOT_VER} \n"
         f"╟> 🌹  Plugins  :{len(modules)} Plugins \n"
-        f"╰─━═━═━═━═━═━═━═━═━─╯ \n"
+        f"╰━═━═━═━═━═━═━═━═━╯ \n"
         f"[Repo](https://github.com/Aftahbagas/Kanjeng-Userbot) | [Grup Support](t.me/petercord) | [Owner](t.me/Kanjengingsun)")
     if ALIVE_LOGO:
         try:
