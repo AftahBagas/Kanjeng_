@@ -218,7 +218,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:lord|lordon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:kanjeng|kanjengon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await alive.edit("`Perkenalan diri...`")
@@ -226,7 +226,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f" 🌹 KANJENG USERBOT 🌹 \n"
-        f"\n__**{KANJENG_TEKS_KUSTOM}**__\n"
+        f"\n__**WELCOME TO ALIVE**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
         f"**☀ ᴋᴀɴᴊᴇɴɢ** \n"
         f" ➥ {DEFAULTUSER} \n"
