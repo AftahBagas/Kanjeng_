@@ -34,7 +34,7 @@ async def koc(e):
         await e.edit("GA DITERIMA🥺🥺💞")
 
 
-@register(outgoing=True, pattern='^.dino(?: |$)(.*)')
+@register(outgoing=True, pattern='^.tiger(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`HAA HAAA.....`")
@@ -938,7 +938,7 @@ async def koc(e):
 
 CMD_HELP.update({
     "petercordkata-kata":
-    "`.gabut` ; `.dino`\
+    "`.gabut` ; `.tiger`\
     \nUsage: ntahlah gabut doang.\
     \n\n`.gombal`\
     \nUsage: buat bercanda\
