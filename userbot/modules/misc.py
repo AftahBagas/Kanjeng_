@@ -65,12 +65,12 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan Petercord-Userbot....`")
+    await event.edit("`Mematikan Kanjeng Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`Kanjeng-Userbot Telah Dimatikan`")
+                                        "`𝙆𝙖𝙣𝙟𝙚𝙣𝙜 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝙏𝙚𝙡𝙖𝙝 𝘿𝙞𝙢𝙖𝙩𝙞𝙠𝙖𝙣`")
     await bot.disconnect()
 
 
@@ -81,7 +81,7 @@ async def killdabot(event):
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTARTBOT \n"
-                                        "`Kanjeng-Userbot Telah Di Restart`")
+                                        "`𝙆𝙖𝙣𝙟𝙚𝙣𝙜 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝙏𝙚𝙡𝙖𝙝 𝘿𝙞𝙧𝙚𝙨𝙩𝙖𝙧𝙩`")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -93,7 +93,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's something for you to read:\n"
-        "\n[Kanjeng-Userbot Repo](https://github.com/AftahBagas/-KANJENG)"
+        "\n[Kanjeng-Userbot Repo](https://github.com/AftahBagas/Kanjeng_)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-GDrive-11-02)"
         "\n[Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -128,7 +128,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**╭┄┅┅┄───┄┅┅┄╮**\n\n       [𝗞𝗔𝗡𝗝𝗘𝗡𝗚](https://github.com/Aftahbagas/-KANJENG)\n\n**╰┄┅┅┄───┄┅┅┄╯**\n"
+        "**╭┄┅┅┄───┄┅┅┄╮**\n\n       [𝗞𝗔𝗡𝗝𝗘𝗡𝗚](https://github.com/Aftahbagas/Kanjeng_)\n\n**╰┄┅┅┄───┄┅┅┄╯**\n"
     )
 
 
