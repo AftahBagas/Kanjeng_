@@ -101,9 +101,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/AftahBagas/-KANJENG-")
+    "https://github.com/AftahBagas/Kanjeng_")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Kanjeng-Userbot")
+    "UPSTREAM_REPO_BRANCH", "Kanjeng")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -319,7 +319,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🌹[KEKUATAN KANJENG TELAH DIBANGKITKAN]🌹```")
+    await bot.send_message(BOTLOG_CHATID, "```🎉 𝙆𝙖𝙣𝙟𝙚𝙣𝙜 𝘽𝙚𝙧𝙝𝙖𝙨𝙞𝙡 𝘿𝙞𝙖𝙠𝙩𝙞𝙛𝙠𝙖𝙣 🎉```")
     return
 
 with bot:
@@ -404,7 +404,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**🌹 Jumlah Modul Yang Tersedia:** `{}`\n               \n**🌹 Daftar Modul  🌹KANJENG-USERBOT:** \n".format(
+                    text="{}\n\n**𝙅𝙪𝙢𝙡𝙖𝙝 𝙈𝙤𝙙𝙪𝙡 𝙔𝙖𝙣𝙜 𝙏𝙚𝙧𝙨𝙚𝙙𝙞𝙖:** `{}`\n               \n**𝘿𝙖𝙛𝙩𝙖𝙧 𝙈𝙤𝙙𝙪𝙡 𝙆𝘼𝙉𝙅𝙀𝙉𝙂 𝙐𝙎𝙀𝙍𝘽𝙊𝙏:** \n".format(
                         "** 🌹KANJENG-USERBOT**",
                         len(dugmeler),
                     ),
@@ -413,19 +413,19 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan KANJENG⚖USERBOT ",
+                    "Bantuan KANJENG USERBOT ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**KANJENG⚖USERBOT**",
-                    text="""**Anda Bisa Membuat KANJENG⚖USERBOT Anda Sendiri Dengan Cara:** [Tekan Disini🏹](t.me/petercord)""",
+                    "**KANJENG USERBOT**",
+                    text="""**Anda Bisa Membuat KANJENG USERBOT Anda Sendiri Dengan Cara:** [Tekan Disini🏹](t.me/petercord)""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Repo Kanjeng-Userbot🏹",
-                                "https://github.com/AftahBagas/-KANJENG"),
+                                "https://github.com/AftahBagas/Kanjeng_"),
                             custom.Button.url(
                                 "Pemilik Repo🏹",
                                 "t.me/Kanjengingsun")],
@@ -453,7 +453,7 @@ with bot:
 
         @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
         async def close(event):
-            await event.edit("MENU CLOSED KANJENG by.Rindu Teman Lama")
+            await event.edit("𝙈𝙀𝙉𝙐 𝘾𝙇𝙊𝙀𝘿 𝙆𝘼𝙉𝙅𝙀𝙉𝙂 by.Rindu Teman Lama")
             await event.delete()
 
         @tgbot.on(
