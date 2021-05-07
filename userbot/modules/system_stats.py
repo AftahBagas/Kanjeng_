@@ -225,18 +225,18 @@ async def amireallyalive(alive):
     await alive.edit("⭐")
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" 🌹 KANJENG USERBOT 🌹 \n"
-        f"\n__**WELCOME TO ALIVE**__\n"
+        f" 🌹 𝙆 𝘼 𝙉 𝙅 𝙀 𝙉 𝙂 🌹 \n"
+        f"\n__**𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 𝘼𝙡𝙞𝙫𝙚**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**☀ ᴋᴀɴᴊᴇɴɢ** \n"
-        f" ➥ {DEFAULTUSER} \n"
-        f"**☀ ᴜsᴇʀɴᴀᴍᴇ** \n"
-        f" ➥ @{user.username} \n"
+        f"**✶ 𝗞𝗮𝗻𝗷𝗲𝗻𝗴** \n"
+        f" ➠ {DEFAULTUSER} \n"
+        f"**✶ 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲** \n"
+        f" ➠ @{user.username} \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[› Telethon :Ver {version.__version__} \n"
-        f"┣[› Python   :Ver {python_version()} \n"
-        f"┣[› Bot Ver  :{BOT_VER} \n"
-        f"┣[› Modules  :{len(modules)} Modules \n"
+        f"┣➠ Telethon :Ver {version.__version__} \n"
+        f"┣➠ Python   :Ver {python_version()} \n"
+        f"┣➠ Bot Ver  :{BOT_VER} \n"
+        f"┣➠ Modules  :{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
@@ -264,14 +264,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
-        f"     **✨ KANJENG USERBOT ✨** \n\n"
+        f"     **🍁 𝗞𝗮𝗻𝗷𝗲𝗻𝗴 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 🍁** \n\n"
         f"❅ **Kanjeng**     \n   ➥ `{DEFAULTUSER}` \n"
         f"❅ **Username** \n   ➥ `@{user.username}` \n"
         f"❅ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
         f"❅ **Python**   \n   ➥ `Versi {python_version()}` \n"
         f"❅ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❅ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❅ **Repo Userbot:** [Kanjeng](https://github.com/AftahBagas/Kanjeng-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/Petercord)\n❃ **Pemilik:** [Alfareza](t.me/Kanjengingsun)\n"
+        f"➔ **Repo Userbot:** [Kanjeng](https://github.com/AftahBagas/Kanjeng_)\n➔ **Grup Userbot: **[Tekan](t.me/Petercord)\n➔ **Pemilik:** [Alfareza](t.me/Kanjengingsun)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -302,19 +302,19 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**╭━═━═━═━═━═━═━═━═━╮** \n"
-        f"**       KANJENG USERBOT** \n"
+        f"**        KANJENG USERBOT** \n"
         f"**╰━═━═━═━═━═━═━═━═━╯** \n"
         f"     WELCOME TO ALIVE       \n"
         f"╭━═━═━═━═━═━═━═━═━╮ \n"
-        f"╟> 🥶  Kanjeng  :{DEFAULTUSER} \n"
-        f"╟> 💳 Username  :@{user.username} \n"
-        f"╟> ❄️  Telethon :v. {version.__version__} \n"
-        f"╟> 🐍  Python   :v. {python_version()} \n"
-        f"╟> 🌹  Branch   :{UPSTREAM_REPO_BRANCH} \n"
-        f"╟> 🌹  Bot Ver  :v. {BOT_VER} \n"
-        f"╟> 🌹  Plugins  :{len(modules)} Plugins \n"
+        f"╟➠ 🥶  Kanjeng  :{DEFAULTUSER} \n"
+        f"╟➠ 💳 Username  :@{user.username} \n"
+        f"╟➠ ⚙️  Telethon :v. {version.__version__} \n"
+        f"╟➠ 🐍  Python   :v. {python_version()} \n"
+        f"╟➠ ⚒️  Branch   :{UPSTREAM_REPO_BRANCH} \n"
+        f"╟➠ 🤖  Bot Ver  :v. {BOT_VER} \n"
+        f"╟➠ 🗳️  Plugins  :{len(modules)} Plugins \n"
         f"╰━═━═━═━═━═━═━═━═━╯ \n"
-        f"[Repo](https://github.com/Aftahbagas/Kanjeng-Userbot) | [Grup Support](t.me/petercord) | [Owner](t.me/Kanjengingsun)")
+        f"[Repo](https://github.com/Aftahbagas/Kanjeng_) | [Grup Support](t.me/petercord) | [Owner](t.me/Kanjengingsun)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
