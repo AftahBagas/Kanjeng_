@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**✱ Kanjeng** `Berhasil Di Update!`')
+    await event.edit('**🍁 𝗞𝗔𝗠𝗝𝗘𝗡𝗚** `𝘽𝙚𝙧𝙝𝙖𝙨𝙞𝙡 𝘿𝙞 𝙐𝙥𝙙𝙖𝙩𝙚!`')
     await asyncio.sleep(1)
-    await event.edit('**✱ Kanjeng** `Di Restart....`')
+    await event.edit('**🍁 𝗞𝗔𝗡𝗝𝗘𝗡𝗚** `𝘿𝙞 𝙍𝙚𝙨𝙩𝙖𝙧𝙩....`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik ツ`')
     await asyncio.sleep(10)
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**Kanjeng Telah Di Perbarui ツ**")
+            "**𝙆𝙖𝙣𝙟𝙚𝙣𝙜 𝙏𝙚𝙡𝙖𝙝 𝘿𝙞 𝙐𝙥𝙙𝙖𝙩𝙚 ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -194,7 +194,7 @@ async def upstream(event):
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**❈ Pembaruan Untuk Kanjeng [{ac_br}]:\n\n❈ Pembaruan:**\n`{changelog}`'
+        changelog_str = f'**🍁 𝙋𝙚𝙢𝙗𝙖𝙧𝙪𝙖𝙣 𝙐𝙣𝙩𝙪𝙠 𝙆𝙖𝙣𝙟𝙚𝙣𝙜 [{ac_br}]:\n\n🍁 𝙋𝙚𝙢𝙗𝙖𝙧𝙪𝙖𝙣:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update Kanjeng**\n >`.update now`\n >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari Kanjeng.__')
+        return await event.respond('**𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 𝙐𝙣𝙩𝙪𝙠 𝙐𝙥𝙙𝙖𝙩𝙚 𝙆𝘼𝙉𝙅𝙀𝙉𝙂 🍁**\n >`.update now`\n >`.update deploy`\n\n__𝙐𝙣𝙩𝙪𝙠 𝙈𝙚𝙣𝙜𝙪𝙥𝙙𝙖𝙩𝙚 𝙁𝙞𝙩𝙪𝙧 𝙏𝙚𝙧𝙗𝙖𝙧𝙪 𝘿𝙖𝙧𝙞 𝙆𝙖𝙣𝙟𝙚𝙣𝙜 🍁.__')
 
     if force_update:
         await event.edit(
