@@ -24,8 +24,8 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "Mengambil Sticker Ini Ke Pack 🐲Petercord",
-    "🐲Petercord Mengambil Sticker Ini Ke Pack",
+    "Mengambil Sticker Ini Ke Pack 𝙆𝙖𝙣𝙟𝙚𝙣𝙜",
+    "𝙆𝙖𝙣𝙟𝙚𝙣𝙜 Mengambil Sticker Ini Ke Pack",
 ]
 
 
@@ -69,9 +69,9 @@ async def kang(args):
             is_anim = True
             photo = 1
         else:
-            return await args.edit("`File Tidak Didukung 🐲Petercord!`")
+            return await args.edit("`File Tidak Didukung 𝙆𝙖𝙣𝙟𝙚𝙣𝙜!`")
     else:
-        return await args.edit("`Maaf Petercord🐲, Saya Gagal Mengambil Sticker Ini!`")
+        return await args.edit("`Maaf 𝙆𝙖𝙣𝙟𝙚𝙣𝙜, Saya Gagal Mengambil Sticker Ini!`")
 
     if photo:
         splat = args.text.split()
@@ -175,7 +175,7 @@ async def kang(args):
                         return await args.edit(
                             "`Sticker ditambahkan ke pack yang berbeda !"
                             "\nIni pack yang baru saja Lord buat!"
-                            f"\nTekan [Lord Sticker](t.me/addstickers/{packname}) Untuk Melihat Sticker 🐲Petercord",
+                            f"\nTekan [𝙆𝙡𝙞𝙠 𝘿𝙞𝙨𝙞𝙣𝙞](t.me/addstickers/{packname}) Untuk Melihat Sticker 𝙆𝙖𝙣𝙟𝙚𝙣𝙜",
                             parse_mode="md",
                         )
                 if is_anim:
@@ -187,7 +187,7 @@ async def kang(args):
                 rsp = await conv.get_response()
                 if "Sorry, the file type is invalid." in rsp.text:
                     return await args.edit(
-                        "`Maaf 🐲Petercord, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker Anda.`"
+                        "`Maaf 𝙆𝙖𝙣𝙟𝙚𝙣𝙜, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker Anda.`"
                     )
                 await conv.send_message(emoji)
                 # Ensure user doesn't get spamming notifications
@@ -217,7 +217,7 @@ async def kang(args):
                 rsp = await conv.get_response()
                 if "Sorry, the file type is invalid." in rsp.text:
                     return await args.edit(
-                        "`Mohon Maaf 🐲Petercord, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker.`"
+                        "`Mohon Maaf 𝙆𝙖𝙣𝙟𝙚𝙣𝙜, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker.`"
                     )
                 await conv.send_message(emoji)
                 # Ensure user doesn't get spamming notifications
