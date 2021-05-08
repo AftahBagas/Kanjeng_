@@ -1,11 +1,11 @@
 <a href="https://cooltext.com"><img src="https://images.cooltext.com/5527008.gif" width="374" height="52" alt="Kanjeng Userbot" /></a>
 
 <p align="center">
-  <a href="https://github.com/AftahBagas/Kanjeng-Userbot/fork">
+  <a href="https://github.com/AftahBagas/Kanjeng_/fork">
     <img src="https://img.shields.io/github/forks/AftahBagas/Kanjeng_?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/AftahBagas/Kanjeng-Userbot">
+  <a href="https://github.com/AftahBagas/Kanjeng_">
     <img src="https://img.shields.io/github/stars/AftahBagas/Kanjeng_?style=social">
   </a>
 </p>  
