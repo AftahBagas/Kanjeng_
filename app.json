@@ -1,6 +1,6 @@
 {
   "name": "KANJENG",
-  "description": "[KANJENG] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "description": "[KANJENG] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
   "logo": "https://telegra.ph/file/858a7ef4275e9adaaf11f.jpg",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/AftahBagas/-KANJENG",
+  "repository": "https://github.com/AftahBagas/Kanjeng_",
   "telegram": "https://t.me/kanjengingsun",
   "success_url": "https://t.me/kanjengingsun",
   "stack": "container",
